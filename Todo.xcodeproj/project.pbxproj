@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4391A7181AD00FF900DD66B0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4391A7171AD00FF900DD66B0 /* DetailViewController.swift */; };
 		439607E91ACE7E2A00595145 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439607E81ACE7E2A00595145 /* AppDelegate.swift */; };
 		439607EB1ACE7E2A00595145 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439607EA1ACE7E2A00595145 /* ViewController.swift */; };
 		439607EE1ACE7E2A00595145 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 439607EC1ACE7E2A00595145 /* Main.storyboard */; };
 		439607F01ACE7E2A00595145 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 439607EF1ACE7E2A00595145 /* Images.xcassets */; };
 		439607F31ACE7E2A00595145 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439607F11ACE7E2A00595145 /* LaunchScreen.xib */; };
 		439607FF1ACE7E2A00595145 /* TodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439607FE1ACE7E2A00595145 /* TodoTests.swift */; };
+		439608091ACE8C4A00595145 /* TodoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 439608081ACE8C4A00595145 /* TodoModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4391A7171AD00FF900DD66B0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailViewController.swift; path = ../DetailViewController.swift; sourceTree = "<group>"; };
 		439607E31ACE7E2A00595145 /* Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		439607E71ACE7E2A00595145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439607E81ACE7E2A00595145 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -36,6 +39,7 @@
 		439607F81ACE7E2A00595145 /* TodoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		439607FD1ACE7E2A00595145 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		439607FE1ACE7E2A00595145 /* TodoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoTests.swift; sourceTree = "<group>"; };
+		439608081ACE8C4A00595145 /* TodoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodoModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,9 +81,11 @@
 		439607E51ACE7E2A00595145 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				4391A7171AD00FF900DD66B0 /* DetailViewController.swift */,
 				439607E81ACE7E2A00595145 /* AppDelegate.swift */,
 				439607EA1ACE7E2A00595145 /* ViewController.swift */,
 				439607EC1ACE7E2A00595145 /* Main.storyboard */,
+				439608081ACE8C4A00595145 /* TodoModel.swift */,
 				439607EF1ACE7E2A00595145 /* Images.xcassets */,
 				439607F11ACE7E2A00595145 /* LaunchScreen.xib */,
 				439607E61ACE7E2A00595145 /* Supporting Files */,
@@ -212,8 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				439608091ACE8C4A00595145 /* TodoModel.swift in Sources */,
 				439607EB1ACE7E2A00595145 /* ViewController.swift in Sources */,
 				439607E91ACE7E2A00595145 /* AppDelegate.swift in Sources */,
+				4391A7181AD00FF900DD66B0 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +413,7 @@
 				439608041ACE7E2A00595145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		439608051ACE7E2A00595145 /* Build configuration list for PBXNativeTarget "TodoTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				439608071ACE7E2A00595145 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
